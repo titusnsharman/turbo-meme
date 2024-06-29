@@ -8,13 +8,14 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+    pathPrefix: "https://github.com/titusnsharman/turbo-meme/", // Your GitHub repository name
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `My blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Titus S`,
+      summary: `Blog to chronicle current learning`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Titus's educational blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
