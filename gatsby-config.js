@@ -8,7 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-    pathPrefix: "https://github.com/titusnsharman/turbo-meme/", // Your GitHub repository name
+    pathPrefix: "/turbo-meme", // Your GitHub repository name
   siteMetadata: {
     title: `My blog`,
     author: {
