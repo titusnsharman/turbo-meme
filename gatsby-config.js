@@ -1,24 +1,16 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
 
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
-    pathPrefix: "/turbo-meme", // Your GitHub repository name
+  pathPrefix: "/turbo-meme", // Your GitHub repository name
   siteMetadata: {
-    title: `My blog`,
+    title: `Titus's Educational Blog`,
     author: {
-      name: `Titus S`,
-      summary: `Blog to chronicle current learning`,
+      name: `Titus Sharman`,
+      summary: `A blog to chronicle my current learning and educational journey.`,
     },
-    description: `Titus's educational blog`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `An educational blog by Titus Sharman.`,
+    siteUrl: `https://titusnsharman.github.io/turbo-meme`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `titus_sharman`, // Update with your Twitter handle or leave as is
     },
   },
   plugins: [
@@ -103,7 +95,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Titus's Educational Blog RSS Feed",
           },
         ],
       },
@@ -111,8 +103,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Titus's Educational Blog`,
+        short_name: `TitusBlog`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
